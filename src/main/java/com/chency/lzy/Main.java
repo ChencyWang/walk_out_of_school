@@ -11,12 +11,12 @@ public class Main {
         System.out.print("©2026 Github ChencyWang All rights reserved. Violators will be prosecuted." + System.lineSeparator());
         System.out.flush();
         Thread.sleep(5600);
-        /// Input Player Name
+        ///Input Player Name
         Scanner sc = new Scanner(System.in);
         System.out.print("Input your player name > ");
         System.out.flush();
         String playerName = sc.nextLine();
-        /// Welcome
+        ///Welcome
         System.out.print("Hello ! " + playerName + " ! Welcome to the game ! " + System.lineSeparator() + System.lineSeparator());
         System.out.flush();
         Thread.sleep(1000);
