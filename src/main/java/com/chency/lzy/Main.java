@@ -44,14 +44,14 @@ public class Main {
         System.out.flush();
         Game.sleep_print("I 'm so sorry, teacher . " + System.lineSeparator(),100);
         System.out.flush();
-        Thread.sleep(700);
+        Thread.sleep(1000);
         ///Mind
         System.out.print("Mind > " + System.lineSeparator());
         Game.sleep_print("I can't stand this. I need to get out of here . " + System.lineSeparator() + System.lineSeparator(),100);
         Thread.sleep(1000);
         ///Choose
         System.out.print("Choose" + System.lineSeparator());
-        System.out.print("A . Get out by the back door . " + System.lineSeparator() + "B . Continue the class . " + System.lineSeparator());
+        System.out.print("A . Get out by the back door . " + System.lineSeparator() + "B . Continue the class . " + System.lineSeparator() + "> ");
         char FirstChoose = sc.next().charAt(0);
         if(Character.toUpperCase(FirstChoose) == 'A'){
 
