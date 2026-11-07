@@ -5,10 +5,6 @@ import org.jetbrains.annotations.NotNull;
 import java.util.Scanner;
 import java.util.Random;
 import java.nio.file.FileSystem;
-import com.github.kwhat.jnativehook.GlobalScreen;
-import com.github.kwhat.jnativehook.NativeHookException;
-import com.github.kwhat.jnativehook.keyboard.NativeKeyEvent;
-import com.github.kwhat.jnativehook.keyboard.NativeKeyListener;
 
 public class Game {
 

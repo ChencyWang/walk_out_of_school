@@ -25,7 +25,7 @@ public class Main {
         ///Plot
         Game.sleep_print("(In class ... )" + System.lineSeparator(),100);
         System.out.flush();
-        Thread.sleep(650);
+        Thread.sleep(950);
         ///Teacher
         System.out.print("Teacher > " + System.lineSeparator());
         Game.sleep_print("Alright, classmates, let's look at this question . " + System.lineSeparator(),100);
@@ -33,20 +33,21 @@ public class Main {
         Thread.sleep(950);
         ///Teacher
         System.out.print("Teacher > " + System.lineSeparator());
-        Game.sleep_print("Hey, " + playerName + " ! What are you doing ? " + System.lineSeparator() + System.lineSeparator(),100);
-        Thread.sleep(500);
+        Game.sleep_print("Hey, " + playerName + " ! What are you doing ? " + System.lineSeparator(),100);
+        Thread.sleep(650);
         ///System
         System.out.print("System > " + System.lineSeparator() + "You were hit by the teacher's chalk . " + System.lineSeparator());
-        Thread.sleep(450);
+        Thread.sleep(1000);
         ///Player
         System.out.print("Me > " + System.lineSeparator());
         System.out.flush();
         Game.sleep_print("I 'm so sorry, teacher . " + System.lineSeparator(),100);
         System.out.flush();
-        Thread.sleep(500);
+        Thread.sleep(700);
         ///Mind
         System.out.print("Mind > " + System.lineSeparator());
         Game.sleep_print("I can't stand this. I need to get out of here." + System.lineSeparator() + System.lineSeparator(),100);
+        Thread.sleep(800);
         ///Choose
         System.out.print("Choose" + System.lineSeparator());
         System.out.print("A . Get out by the back door . " + System.lineSeparator() + "B . Continue the class . " + System.lineSeparator());
