@@ -52,6 +52,11 @@ public class Main {
         ///Choose
         System.out.print("Choose" + System.lineSeparator());
         System.out.print("A . Get out by the back door . " + System.lineSeparator() + "B . Continue the class . " + System.lineSeparator());
+        char FirstChoose = sc.next().charAt(0);
+        if(Character.toUpperCase(FirstChoose) == 'A'){
 
+        }else{
+
+        }
     }
 }

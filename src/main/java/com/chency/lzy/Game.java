@@ -4,7 +4,6 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.Scanner;
 import java.util.Random;
-import java.nio.file.FileSystem;
 
 public class Game {
 
@@ -22,7 +21,11 @@ public class Game {
     
     """
     };
-
+    public final static String[] endInterface = new String[]{"         ------   Game over   ------       " + System.lineSeparator()
+            , "        Thank you for playing the game I made . " + System.lineSeparator()
+            , " - List of production personnel " + System.lineSeparator()
+            , "ChencyWang" + System.lineSeparator()
+            , " - Special Acknowledgments " + System.lineSeparator()};
     public static void sleep_print(String say, int ms) throws InterruptedException {
         for (int i = 0;i < say.length();i ++) {
             System.out.print(say.charAt(i));
