@@ -36,7 +36,8 @@ public class Main {
         Game.sleep_print("Hey, " + playerName + " ! What are you doing ? " + System.lineSeparator(),100);
         Thread.sleep(650);
         ///System
-        System.out.print("System > " + System.lineSeparator() + "You were hit by the teacher's chalk . " + System.lineSeparator());
+        System.out.print("System > " + System.lineSeparator());
+        Game.sleep_print("You were hit by the teacher's chalk . " + System.lineSeparator(),90);
         Thread.sleep(1000);
         ///Player
         System.out.print("Me > " + System.lineSeparator());
@@ -46,8 +47,8 @@ public class Main {
         Thread.sleep(700);
         ///Mind
         System.out.print("Mind > " + System.lineSeparator());
-        Game.sleep_print("I can't stand this. I need to get out of here." + System.lineSeparator() + System.lineSeparator(),100);
-        Thread.sleep(800);
+        Game.sleep_print("I can't stand this. I need to get out of here . " + System.lineSeparator() + System.lineSeparator(),100);
+        Thread.sleep(1000);
         ///Choose
         System.out.print("Choose" + System.lineSeparator());
         System.out.print("A . Get out by the back door . " + System.lineSeparator() + "B . Continue the class . " + System.lineSeparator());

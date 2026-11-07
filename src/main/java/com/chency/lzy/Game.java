@@ -10,16 +10,16 @@ public class Game {
 
     public final static String[] start = new String[] {
             """
-          
-          WALK OUT OF            "You, come here."
-                                    ╔══════════╗
-                                    ║  SCHOOL  ║
+    
+                      "You, come here."
+                                    ╔══════════╗ ™
+                     WALK OUT OF    ║  SCHOOL  ║
            "Come out of here!"      ╚══════════╝
-          
-                       "Do you finish your homework?"
-            "Give
-                   me!"
-          
+    
+                       "Did you finish your homework?"
+            "Give it
+                     to me!"
+    
     """
     };
 
