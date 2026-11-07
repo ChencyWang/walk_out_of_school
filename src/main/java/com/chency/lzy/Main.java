@@ -2,23 +2,54 @@ package com.chency.lzy;
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Random;
-import com.chency.lzy.Game;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
+        /// Start Interface
         System.out.print(Arrays.toString(Game.start));
         System.out.flush();
-        System.out.print("©2026 Github ChencyWang All rights reserved. Violators will be prosecuted.\n");
+        System.out.print("©2026 Github ChencyWang All rights reserved. Violators will be prosecuted." + System.lineSeparator());
         System.out.flush();
         Thread.sleep(5600);
-        String UserName;
+        /// Input Player Name
         Scanner sc = new Scanner(System.in);
-        System.out.print("Input your username > ");
+        System.out.print("Input your player name > ");
         System.out.flush();
-        UserName = sc.nextLine();
-        System.out.print("Hello ! " + UserName + " ! Welcome to the game ! ");
+        String playerName = sc.nextLine();
+        /// Welcome
+        System.out.print("Hello ! " + playerName + " ! Welcome to the game ! " + System.lineSeparator() + System.lineSeparator());
         System.out.flush();
-        Game.sleep_print("Alright, classmates, let's look at this question.",100);
+        Thread.sleep(1000);
+        System.out.print(System.lineSeparator() + System.lineSeparator() + System.lineSeparator());
+        Thread.sleep(350);
+        ///Plot
+        Game.sleep_print("(In class ... )" + System.lineSeparator(),100);
         System.out.flush();
+        Thread.sleep(650);
+        ///Teacher
+        System.out.print("Teacher > " + System.lineSeparator());
+        Game.sleep_print("Alright, classmates, let's look at this question . " + System.lineSeparator(),100);
+        System.out.flush();
+        Thread.sleep(950);
+        ///Teacher
+        System.out.print("Teacher > " + System.lineSeparator());
+        Game.sleep_print("Hey, " + playerName + " ! What are you doing ? " + System.lineSeparator() + System.lineSeparator(),100);
+        Thread.sleep(500);
+        ///System
+        System.out.print("System > " + System.lineSeparator() + "You were hit by the teacher's chalk . " + System.lineSeparator());
+        Thread.sleep(450);
+        ///Player
+        System.out.print("Me > " + System.lineSeparator());
+        System.out.flush();
+        Game.sleep_print("I 'm so sorry, teacher . " + System.lineSeparator(),100);
+        System.out.flush();
+        Thread.sleep(500);
+        ///Mind
+        System.out.print("Mind > " + System.lineSeparator());
+        Game.sleep_print("I can't stand this. I need to get out of here." + System.lineSeparator() + System.lineSeparator(),100);
+        ///Choose
+        System.out.print("Choose" + System.lineSeparator());
+        System.out.print("A . Get out by the back door . " + System.lineSeparator() + "B . Continue the class . " + System.lineSeparator());
+
     }
 }

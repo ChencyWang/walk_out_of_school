@@ -14,17 +14,19 @@ public class Game {
 
     public final static String[] start = new String[] {
             """
-                                                                  \s
-                                                                  \s
-         WALK OUT OF            "You, come here."                 \s
-                                   ╔══════════╗                   \s
-                                   ║  SCHOOL  ║                   \s
-          "Come out of here!"      ╚══════════╝                      \s
-                                                                  \s
-                      "Do you finish your homework?"              \s
-           "Give                                                   \s
-                  me!"                                            \s
-"""};
+          
+          WALK OUT OF            "You, come here."
+                                    ╔══════════╗
+                                    ║  SCHOOL  ║
+           "Come out of here!"      ╚══════════╝
+          
+                       "Do you finish your homework?"
+            "Give
+                   me!"
+          
+    """
+    };
+
     public static void sleep_print(String say, int ms) throws InterruptedException {
         for (int i = 0;i < say.length();i ++) {
             System.out.print(say.charAt(i));
